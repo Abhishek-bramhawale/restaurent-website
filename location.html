@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="boootstrap.min.css">
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+        h2
+        {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xx-large;
+        }
+
+        span {
+            color: orange;
+        }
+        body {
+            margin: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+
+     <!-- 
+        NAVIGATION_BAR
+      -->
+      <br><br><br><br>
+      <header class="header">
+        <div class="container">
+    
+          <h1>
+            <a id="logo" href="index.php">A1</a> <a id="logo1"  href="index.php">Bites</a>
+          </h1>
+    
+          <nav class="navbar">
+            <ul class="navbar-list">
+    
+              <li>
+                <a href="index.php" class="navbar-link">Home</a>
+              </li>
+    
+              <li>
+                <a href="menu.html" class="navbar-link">Menu</a>
+              </li>
+    
+              <li class="">
+                <a href="location.html" class="navbar-link">Location</a>
+              </li>
+    
+              <li>
+                <a href="index1.php" class="navbar-link">Blog</a>
+              </li>
+    
+              <li>
+                <a href="contactusform.html" class="navbar-link">Contact Us</a>
+              </li>
+    
+            </ul>
+          </nav>
+    
+          <div>
+            <button onclick="openMenu()" class="btn btn-hover">Reservation for Event</button>
+            </button>
+          </div>
+    
+          <script>
+            function openMenu() {
+                window.location.href = "event.html";
+            }
+        </script>
+    
+        </div>
+      </header>
+    <br><h2>OUR <span>RESTAURENT</span> IS LOCATED AT - </h2><br>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9915.33959848749!2d76.55604880436158!3d18.38103030033216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcf83d32100a407%3A0x35a8319eb6f9eacc!2z4KS14KSh4KS-IOCkquCljeCkr-Cli-CksCDgpLXgpYfgpJw!5e0!3m2!1shi!2sin!4v1712157559644!5m2!1shi!2sin" width="1825" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</body>
+</html>

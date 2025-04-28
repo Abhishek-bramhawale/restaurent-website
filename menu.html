@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="images/boootstrap.min.css">
+
+    <link rel="stylesheet" href="style1.css">
+	
+</head>
+
+<style>
+img{
+ height:350px;
+ width:350px;
+ box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+ border: 1px solid black;
+ border-radius: 10px;
+
+}
+img:hover {
+  transform: scale(1.10); 
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;  
+     font-family: 'Playfair Display', serif;  
+    font-size: 2em;  
+    color: rgb(6, 6, 6); 
+    font-weight: bold;
+}
+
+#menu-word {
+    color: orange;
+}
+
+body {
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+</style>
+
+<body>
+
+    <br><br><br><br><br><br>
+     <!-- 
+        NAVIGATION_BAR
+      -->
+  <header class="header">
+    <div class="container">
+
+      <h1>
+        <a id="logo" href="index.php">A1</a> <a id="logo1"  href="index.php">Bites</a>
+      </h1>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.php" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="menu.html" class="navbar-link">Menu</a>
+          </li>
+
+          <li class="">
+            <a href="location.html" class="navbar-link">Location</a>
+          </li>
+
+          <li>
+            <a href="index1.php" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="contactusform.html" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div>
+        <button onclick="openMenu()" class="btn btn-hover">Reservation for Event</button>
+        </button>
+      </div>
+
+      <script>
+        function openMenu() {
+            window.location.href = "event.html";
+        }
+    </script>
+
+    </div>
+  </header>
+
+    <h1>OUR <span id="menu-word"> MENU -</span></h1><br>
+
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/bajraroti.jpg" ><br><br>
+                  Bajraroti         15rs  
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/butternan.jpg" ><br><br>
+                Roti                 15rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/butterpaneer.jpeg" ><br><br>
+                Butterpaneer         147rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/cappuccino.jpeg" ><br><br>
+                Cappuccino         200rs  
+            </div>
+        </div>
+    </div><br><br>
+  
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/cheese sandwich.jpeg" ><br><br>
+                Cheese Sandwich         60rs  
+                
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/cheeseburger.jpg" ><br><br>
+                Cheeseburger         176rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/chillipaneer.png" ><br><br>
+                Chillipaneer         220rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/chocolatepastry.jpg" ><br><br>
+                Chocolatepastry         55rs  
+            </div>
+        </div>
+    </div><br><br>
+
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/chocolatrcoffee.jpeg" ><br><br>
+                Chocolatrcoffee         160rs  
+
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/Chocolatedonut.jpg" ><br><br>
+                Chocolatedonut         65rs  
+
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/dalfry.jpeg" ><br><br>
+                Dalfry         125rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/dhokla.png" ><br><br>
+                Dhokla         60rs  
+            </div>
+        </div>
+    </div><br><br>
+
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/gobi-65-fry.jpg" ><br><br>
+                Gobi-65-fry         80rs  
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/gobiManchurian.jpg" ><br><br>
+                GobiManchurian         180rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/lassi.jpg" ><br><br>
+                Lassi         25rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/limesoda.jpeg" ><br><br>
+                Limesoda         30rs  
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/mangoicecream.jpg" ><br><br>
+                Mangoicecream         45rs  
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/Margherita pizza.jpg" ><br><br>
+                Margherita pizza         120rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/masalachai.jpeg" ><br><br>
+                Masalachai         15rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/masaladosa.jpg" ><br><br>
+                Masaladosa         60rs  
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/masalapapd.jpeg" ><br><br>
+                Masalapapd         35rs  
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/maza.jpg" ><br><br>
+                Maza         40rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/Mexican burger.jpg" ><br><br>
+                Mexican burger         85rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/mixparatha.jpg" ><br><br>
+                Mixparatha         90rs  
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/mixsalad.jpeg" ><br><br>
+                Mixsalad         85rs  
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/mixveg.jpeg" ><br><br>
+                Mixveg         140rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/paneerpizza.jpg" ><br><br>
+                Paneerpizza         125rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/poha-500x500.jpg" ><br><br>
+                Poha         45rs  
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/rasgulla.jpg" ><br><br>
+                Rasgulla         40rs  
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/redbull.jpeg" ><br><br>
+                Redbull         28rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/saltedcaramel.jpg" ><br><br>
+                Saltedcaramel         200rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/tandoori roti.jpg" ><br><br>
+                Tandoori Roti         15rs  
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-md-3 col-sm-3">
+                <img src="Menus/toastsandwich.jpeg" ><br><br>
+                Toast Sandwich         40rs  
+            </div>
+        
+            <div class="col-sm-3">
+                <img src="Menus/tomatosalad.jpeg" ><br><br>
+                Tomatosalad         60rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/upma.jpg" ><br><br>
+                Upma         50rs  
+            </div>
+   
+			<div class="col-sm-3">
+                <img src="Menus/Veg delight pizza .jpg" ><br><br>
+                Veg delight pizza         160rs  
+            </div>
+        </div>
+    </div><br><br>
+
+
+
+  
+   
+</body>
+</html>

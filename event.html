@@ -1,0 +1,278 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation for Event</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container1 {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px; 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #343a40;
+        }
+        form {
+            margin-top: 30px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: orange;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #e69500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <h1>Reservation for Event</h1>
+        <form id="reservationForm" action="submitreservation.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <input type="date" name="date" required>
+            <select name="partySize" required>
+                <option value="">Select Party Size</option>
+                <option value="1">1 person</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4 people</option>
+                <option value="5">5 people</option>
+                <option value="6">6 people</option>
+                <option value="7">7 people</option>
+                <option value="8">8 people</option>
+                <option value="9">9 people</option>
+                <option value="10">10 or more people</option>
+            </select>
+            <input type="submit" value="Submit Reservation">
+        </form>
+    </div>
+</body>
+</html> -->
+/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    
+
+    <style>
+
+        
+     
+        .event h2 {
+        margin-bottom: 20px;  
+        font-family: 'Playfair Display', serif;  
+        font-size: 2em;  
+        color: rgb(6, 6, 6);  
+        text-decoration: underline;  
+        text-decoration-color: orange;
+        text-align: center;
+        }
+
+        #event-block{
+        height: 600px;
+        width: 1450px;
+        background-image: url("images/event1.png");
+        background-size: 1300px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 30px;
+        }
+
+        .btn3{
+        background-color: orange;
+        color: white;
+        padding: 10px 20px;
+        border: black solid 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 380px;
+        margin-right: 700px;
+        text-decoration: none;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container1 {
+            max-width: 1800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px; 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+        } 
+        h1 {
+            text-align: center;
+            color: #343a40;
+        } 
+        form {
+            margin-top: 30px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select {
+            width: 87%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-left: 50px;
+        }
+        input[type="submit"] {
+            width: 87%;
+            padding: 10px;
+            background-color: orange;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin-left: 50px;
+        }
+
+        iframe {
+            align-items: center;
+            width: 100%;
+        } 
+    
+    </style>
+</head>
+<body>
+
+         <!-- 
+        NAVIGATION_BAR
+      -->
+  <header class="header">
+    <div class="container">
+
+      <h1>
+        <a id="logo" href="index.php">A1</a> <a id="logo1"  href="index.php">Bites</a>
+      </h1>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.php" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="menu.html" class="navbar-link">Menu</a>
+          </li>
+
+          <li class="">
+            <a href="location.html" class="navbar-link">Location</a>
+          </li>
+
+          <li>
+            <a href="index1.php" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="contactusform.html" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div>
+        <button onclick="openMenu()" class="btn btn-hover">Reservation for Event</button>
+        </button>
+      </div>
+
+      <script>
+        function openMenu() {
+            window.location.href = "event.html";
+        }
+    </script>
+
+    </div>
+  </header>
+
+    <br><br><br>
+     <section class="event">
+        <br><br><h2>ORGANIZE YOUR EVENTS IN OUR RESTAURENT</h2><br>
+        <div id="event-block">
+          <a href="eventg.html" class="btn3">View Event Gallery</a>
+          
+        </div><br><br>
+
+        <div class="container1"><br>
+          <h1>Reservation for Event</h1>
+          <form id="reservationForm" action="submitreservation.php" method="post">
+              <input type="text" name="name" placeholder="Your Name" ><br>
+              <input type="email" name="email" placeholder="Your Email" ><br>
+              <input type="tel" name="phone" placeholder="Your Phone Number" ><br>
+              <input type="date" name="date" ><br>
+              <select name="partySize" >
+                  <option value="">Select Party Size</option>
+                  <option value="1">1 person</option>
+                  <option value="2">2 people</option>
+                  <option value="3">3 people</option>
+                  <option value="4">4 people</option>
+                  <option value="5">5 people</option>
+                  <option value="6">6 people</option>
+                  <option value="7">7 people</option>
+                  <option value="8">8 people</option>
+                  <option value="9">9 people</option>
+                  <option value="10">10 or more people</option>
+              </select><br>
+              <input type="submit" value="Submit Reservation">
+          </form><br>
+      </div>
+  </section> <br><br>
+
+   <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRpagIl83A94ks1u6FdJGKNMKu32uTLBybl_65ATbFJwoWKA/viewform?embedded=true" height="1309" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
+
+    <script>
+      function submitForm(event) {
+       
+          alert("Reservation Successful");
+          
+      } 
+
+  </script> -->
+</body>
+</html>

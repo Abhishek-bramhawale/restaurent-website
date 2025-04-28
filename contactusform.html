@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <!-- <link rel="stylesheet" type="text/css" href="images\boootstrap.min.css"> -->
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        .form {
+            text-align: left;
+            border: black solid 1px;
+            height: 520px;
+            width: 800px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form h1 {
+            color: black;
+            text-decoration: underline;
+            text-decoration-color: orange;
+            font-size: 32px; /* Enlarge text */
+            text-align: center; /* Center align the heading */
+        }
+
+        .form label {
+            font-weight: bold;
+            display: inline-block;
+            width: 150px; /* Align labels in straight line */
+        }
+
+        .form input {
+            width: calc(100% - 160px); /* Make input boxes take the remaining space */
+            margin-bottom: 20px;
+            padding: 12px;
+        }
+
+        .form button {
+            background-color: orange;
+            margin-top: 30px;
+            height: 35px;
+            width: 200px;
+            color: black;
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+
+         <!-- 
+        NAVIGATION_BAR
+      -->
+  <header class="header">
+    <div class="container">
+
+      <h1>
+        <a id="logo" href="index.php">A1</a> <a id="logo1"  href="index.php">Bites</a>
+      </h1>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.php" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="menu.html" class="navbar-link">Menu</a>
+          </li>
+
+          <li class="">
+            <a href="location.html" class="navbar-link">Location</a>
+          </li>
+
+          <li>
+            <a href="index1.php" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="contactusform.html" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div>
+        <button onclick="openMenu()" class="btn btn-hover">Reservation for Event</button>
+        </button>
+      </div>
+
+      <script>
+        function openMenu() {
+            window.location.href = "event.html";
+        }
+    </script>
+
+    </div>
+  </header><br><br><br><br>
+
+    <div class="container-fluid p-0">
+      <div class="row g-0">
+        <div class="col-md-3 col-sm-3"></div>
+        <div class="col-md-6 col-sm-6">
+          <br><br>
+          <div class="form">
+            <h1>CONTACT US FORM</h1><br><br>
+            <form action="submitcontact.php" method="post">
+                <label>Name -</label>
+                <input type="text" name="name" placeholder="Enter your name" required><br>
+
+                <label>Mobile No. -</label>
+                <input type="text" name="mobile" placeholder="Enter your Mobile no." required><br>
+
+                <label>Email -</label>
+                <input type="email" name="email" placeholder="Enter your email" required><br>
+
+                <label>Message -</label>
+                <input type="text" name="message" placeholder="Enter your message" required>
+
+                <button id="submit" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3"></div>
+      </div>
+    </div>
+</body>
+</html>
