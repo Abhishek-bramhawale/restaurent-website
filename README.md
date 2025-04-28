@@ -11,6 +11,15 @@ This project is useful for restaurant owners for marketing or promoting their re
 - Contact us page
 - Reservation page where users can fill the form and book the table/s for specific date
 
+## Tech Stack Used
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- PHP
+- PHPMyAdmin Database
+  
 ## Screenshots
 
 ### LOGIN/REGISTER PAGE
